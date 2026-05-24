@@ -1,4 +1,4 @@
-const socket = io();
+const socket = io('https://mini-discor.onrender.com');
 
 let localStream = null;
 let screenStream = null;
